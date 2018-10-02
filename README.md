@@ -1,12 +1,7 @@
-## Spotmentor Assignment
+a classifier which takes in a job description and gives the department name for it.
 
-### Your Task
-
-Make a classifier which takes in a job description and gives the department name for it.
-
-*   Use a neural network model
-*   Make use of a pre-trained Word Embeddings (example: Word2Vec, GloVe, etc.)
-*   Calculate the accuracy on a test set (data not used to train the model)
+*   Using a neural network model
+*   Making use of a pre-trained Word Embeddings (example: Word2Vec, GloVe, etc.)
 
 ### Data Structring
 
@@ -20,15 +15,4 @@ There are two sources for loading your training/test data
 *   For *Job Department*:  
    **document_departments.csv** file contains the mapping of document id to department name where document id is the name of the corresponding file in docs folder.
 
-### Coding Guidelines
-
-**Mandatory**
-
-*   Write clean code with precise comments wherever necessary
-*   Entrypoint to the code base should be run.py as already present (We should only have to execute `python run.py` to test your code)
-*   Update the requirements.txt with all the packages used in your code base
-
-**Preferable**
-
-*   Adhere to PEP8 formatting
-*   Use python 3
+Note: Make sure to have GoogleNews-vectors-negative300.bin in the current working directory.
